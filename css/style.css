@@ -1,0 +1,48 @@
+html
+{ scroll-behavior: smooth; }
+
+body
+{ background-image: url('https://i.ibb.co/YP69tt8/background.png'); background-repeat: no-repeat, repeat; background-size: cover; }
+
+header, nav, main, aside, footer
+{ background-color: cornflowerblue; border: inset 5px; border-radius: 15px; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5); font-family: arial; font-size: xx-large; margin-bottom: 1%; opacity: 80%; text-align: center; }
+
+button
+{ background-color: blueviolet; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5); color: white; font-size: xx-large; padding: 1%; text-transform: uppercase; transition: 500ms; }
+
+button:hover
+{ letter-spacing: 5px; transition: 200ms; }
+
+button:active
+{ background-color: white; color: black; transform: translateY(10px); transition: 100ms; }
+
+
+
+header
+{ text-transform: uppercase; }
+
+main, aside
+{ float: left; }
+
+main
+{ margin-right: 1%; width: 82.9%; }
+
+article
+{ margin-left: 2%; margin-right: 2%; }
+
+.songimg
+{ float: left; margin-left: 5%; }
+
+.songinfo
+{ transform: translateY(25px); }
+
+audio
+{ float: left; margin-left: 3%; margin-top: 5%; width: 68%; }
+
+aside
+{ position: sticky; top: 2%; width: 15%; }
+
+
+
+footer
+{ clear: both; }
